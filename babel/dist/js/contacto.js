@@ -81,43 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./webpack-dev-server/src/js/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./multi-entry-points/src/js/contacto.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./webpack-dev-server/src/css/index.css":
-/*!**********************************************!*\
-  !*** ./webpack-dev-server/src/css/index.css ***!
-  \**********************************************/
+/***/ "./multi-entry-points/src/js/contacto.js":
+/*!***********************************************!*\
+  !*** ./multi-entry-points/src/js/contacto.js ***!
+  \***********************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./webpack-dev-server/src/css/index.css?");
-
-/***/ }),
-
-/***/ "./webpack-dev-server/src/js/index.js":
-/*!********************************************!*\
-  !*** ./webpack-dev-server/src/js/index.js ***!
-  \********************************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/index.css */ \"./webpack-dev-server/src/css/index.css\");\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _text__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./text */ \"./webpack-dev-server/src/js/text.js\");\n\r\n\r\n\r\nconsole.log('Hola mundo desde index y funciona!!');\r\nObject(_text__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack:///./webpack-dev-server/src/js/index.js?");
-
-/***/ }),
-
-/***/ "./webpack-dev-server/src/js/text.js":
-/*!*******************************************!*\
-  !*** ./webpack-dev-server/src/js/text.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction text(){\r\n    document.body.innerHTML = '<h1>Hola mundo y adios planetas!!!!</h1>'\r\n}\r\n\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (text); //ECMAScript6\n\n//# sourceURL=webpack:///./webpack-dev-server/src/js/text.js?");
+eval("console.log('Hola mundo desde contactos!');\n\n//# sourceURL=webpack:///./multi-entry-points/src/js/contacto.js?");
 
 /***/ })
 
