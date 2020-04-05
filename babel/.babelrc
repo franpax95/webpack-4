@@ -1,0 +1,6 @@
+{
+    /* preconfiguración */
+    "presets": [
+        "@babel/preset-env"
+    ]
+}

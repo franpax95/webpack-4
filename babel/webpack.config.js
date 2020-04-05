@@ -23,13 +23,13 @@ module.exports = {
     module: {
         rules: [
             {
-                /* Con RegExp */
                 test: /\.css$/,
-                use: [
-                    /*'style-loader', //No hace falta ya que tenemos plugin */
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                ]
+                use: [MiniCssExtractPlugin.loader, 'css-loader',]
+            },
+            {
+                test: /\.js$/,
+                use: ['babel-loader',],
+                exclude: /node_modules/
             }
         ]
     },
