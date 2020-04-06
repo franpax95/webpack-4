@@ -1,4 +1,9 @@
-body{
+body, div{
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: solid 2px white;
 }
 h1{ color: white; }

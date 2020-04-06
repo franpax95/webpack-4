@@ -35,6 +35,6 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({ title: 'Webpack-Dev-Server' }),
-        new MiniCssExtractPlugin({ filename: 'css/[name].css' })
+        new MiniCssExtractPlugin({ filename: 'css/[name].css' }),
     ]
 }
