@@ -65,5 +65,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({ title: 'Webpack-Dev-Server', template: path.resolve(__dirname, 'index.html') }),
         new MiniCssExtractPlugin({ filename: 'css/[name].css' }),
-    ]
+    ],
+    optimization:{
+        splitChunks: {
+            chunks: 'all',
+            minSize: 0,
+            name: 'commons'
+        }
+    }
 }
